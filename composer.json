@@ -20,12 +20,18 @@
 			"homepage": "https://github.com/mabar"
 		}
 	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/heroyt/orisai-exceptions"
+		}
+	],
 	"provide": {
 		"psr/clock-implementation": "1.0"
 	},
 	"require": {
-		"php": ">=7.4.0 <8.3.0",
-		"orisai/exceptions": "^1.0.0",
+		"php": ">=7.4.0 <8.4.0",
+		"orisai/exceptions": "dev-v1.x-php83",
 		"psr/clock": "^1.0.0"
 	},
 	"require-dev": {
